@@ -27,7 +27,7 @@ class SWKClient{
     
     4:OAuth2完成后，就可以通过SWKClient的 - get - post - put - head 等方法直接调用新浪API了
     
-    使用示例：
+    使用示例： 
     let client = SWKClient(clientID:YOUR_ID, clientSecret:YOUR_SECRET, redirectURI:YOUR_REDIRECT_URI)
     client.presentAuthorizeView(fromViewController: self){
     (isSuccess : Bool) in
